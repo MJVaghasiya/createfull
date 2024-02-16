@@ -1,0 +1,103 @@
+* {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.box {
+  background-color: #DCE5F2;
+  display: grid;
+  place-items: center;
+  height: 600px;
+}
+
+.box-2 {
+  display: grid;
+  padding: 50px 0px;
+  background: linear-gradient(0deg, #E6EEF8, #E6EEF8), #CFD8DC;
+  box-shadow: -16px -16px 40px rgba(253, 255, 255, 0.8), 16px 16px 40px rgba(187, 195, 206, 0.6);
+  border-radius: 16px;
+  justify-items: center;
+}
+
+.header {
+  margin: 0;
+}
+
+.icon-box {
+  border-radius: 50%;
+  margin: 20px;
+  background: linear-gradient(0deg, #E6EEF8, #E6EEF8), #CFD8DC;
+  box-shadow: -4px -4px 12px rgba(253, 255, 255, 0.8), 4px 4px 12px rgba(187, 195, 206, 0.6);
+  border-radius: 48px;
+}
+
+input::placeholder {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #90A4AE;
+  padding-left: 10px;
+}
+
+.fname {
+  margin-bottom: 10px;
+  background: linear-gradient(0deg, #E6EEF8, #E6EEF8), #CFD8DC;
+  box-shadow: inset -4px -4px 12px rgba(253, 255, 255, 0.8), inset 4px 4px 12px rgba(187, 195, 206, 0.6);
+  border-radius: 16px;
+  height: 40px;
+  width: 100%;
+}
+
+.password {
+  margin-bottom: 10px;
+  background: linear-gradient(0deg, #E6EEF8, #E6EEF8), #CFD8DC;
+  box-shadow: inset -4px -4px 12px rgba(253, 255, 255, 0.8), inset 4px 4px 12px rgba(187, 195, 206, 0.6);
+  border-radius: 16px;
+  height: 40px;
+  width: 100%;
+}
+
+.sign {
+  width: 113px;
+  height: 48px;
+  background: #9574CD;
+  box-shadow: -4px -4px 12px rgba(253, 255, 255, 0.8), 4px 4px 12px rgba(187, 195, 206, 0.6);
+  border-radius: 16px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.facebook-logo {
+  color: #9574cd;
+  padding-top: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.logo {
+  color: #9574cd;
+  padding-top: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 9px;
+}
+
+.icons {
+  display: flex;
+}
+
+.form-fil {
+  width: 40%;
+  display: grid;
+  place-items: center;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
